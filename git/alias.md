@@ -16,10 +16,10 @@ Run the following commands in your terminal to set up these aliases:
 
 ```bash
 # Alias 'main': stash, checkout main, get latest, apply stash
-git config --global alias.main '!git stash push -m "Auto-stash before main" && git checkout main && git pull origin main && git stash pop'
+git config --global alias.main "!git stash push -m 'Auto-stash before main' && git checkout main && git pull origin main && git stash pop"
 
 # Alias 'sps': stash, get latest, apply stash
-git config --global alias.sps '!git stash push -m "Auto-stash before sps" && git pull origin && git stash pop'
+git config --global alias.sps "!git stash push -m 'Auto-stash before sps' && git pull origin && git stash pop"
 
 # Alias 'fp': fetch and prune
 git config --global alias.fp 'fetch --prune'
